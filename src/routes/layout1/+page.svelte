@@ -1,38 +1,4 @@
-<aside>
-    <header></header>
-    <nav>
-        <a
-            href="./"
-            aria-label="Event Types"
-            aria-current="page"
-            >Event Types</a>
-        <a
-            href="./bookings/"
-            aria-label="Bookings"
-            >Bookings</a>
-        <a
-            href="./availability/"
-            aria-label="Availability"
-            >Availability</a>
-        <a
-            href="./teams/"
-            aria-label="Teams"
-            >Teams</a>
-        <a
-            href="./apps/"
-            aria-label="Apps"
-            >Apps</a>
-        <a
-            aria-label="Workflows"
-            href="./workflows/"
-            >Workflows</a>
-        <a
-            aria-label="Settings"
-            href="./settings/"
-            >Settings</a>
-    </nav>
-</aside>
-<main>
+<div>
     <article>
         <header>
             <div>
@@ -51,4 +17,4 @@
             <li>Hidden meeting</li>
         </ul>
     </article>
-</main>
+</div>
