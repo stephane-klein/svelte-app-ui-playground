@@ -1,4 +1,3 @@
-
 <div>
     <aside>
         <header><h1>Example.com</h1></header>
@@ -33,6 +32,10 @@
                 href="./settings/"
             >Settings</a>
         </nav>
+        <button>
+            <img src="" alt="Avatar">
+            <span>John Doe</span>
+        </button>
     </aside>
     <main>
         <slot>
@@ -41,10 +44,18 @@
     </main>
 </div>
 
-<style>
+<style lang="postcss">
+    :global {
+        body {
+            margin: 0;
+            background-color: red;
+        }
+    }
     div {
         display: flex;
         flex-direction: row;
+        height: 100vh;
+        padding: 0;
     }
 
     aside {
