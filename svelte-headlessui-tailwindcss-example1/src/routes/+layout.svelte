@@ -1,4 +1,4 @@
-<div>
+<script>import "../app.postcss";</script><div>
     <aside>
         <div>
             <header><h1>Example.com</h1></header>
